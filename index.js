@@ -107,3 +107,54 @@
 // alert("Turn right");
 // getBread();
 // alert("Enter house");
+
+/* 
+    1) get your and your beloved's name
+    2) claculate the love (random number generator)
+    3) show results
+*/
+
+// var yourName = prompt("Please enter your name");
+// var yourCrushName = prompt("Please enter her name");
+
+// var calculatedValue = (Math.floor((Math.random() * 100) + 1));
+// console.log(calculatedValue);
+
+// if(calculatedValue >= 90) {
+//     console.log("You both love each other like you love yourself");
+// } else if (calculatedValue < 90 && calculatedValue >= 70) {
+//     console.log("You both are compatible");
+// } else if (calculatedValue < 70 && calculatedValue > 50) {
+//     console.log("You need to work on it");
+// } else {
+//     console.log("You have no chance");
+// }
+
+// switch(calculatedValue) {
+//     case (calculatedValue >= 90):
+//         console.log("You both love each other like you love yourself");
+//         break;
+//     default: 
+//         console.log("You have no chance");
+// }
+
+var car = ["Honda", "Toyota", "Suzuki"];
+var mixedList = ["Ali", 95, function greetings(){alert("I am a function")} ];
+
+// typeof(car);
+
+// for(i = 1; i <= 10; i++) {
+//     console.log(i);
+// }
+
+var i = 1
+// while (i <= 10) {
+//     console.log(i);
+//     i++;
+// }
+
+do {
+    console.log(i);
+    i++;
+} while(i <= 10);
+
