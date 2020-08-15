@@ -12,12 +12,18 @@
 
 // Import component to use is the app
 import React from 'react';
-import {AppRegistry} from 'react-native';
+import {AppRegistry, View} from 'react-native';
 import Header from './src/components/Header';
+import AlbumList from './src/components/AlbumList';
 
 // Write your own component
 const App = () => {
-  return <Header headerText={'Album'} />;
+  return (
+    <View>
+      <Header headerText={'Album'} />
+      <AlbumList />
+    </View>
+  );
 };
 
 // Display the component
